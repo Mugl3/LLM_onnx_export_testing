@@ -10,6 +10,10 @@ tags:
 pipeline_tag: sentence-similarity
 ---
 
+# Step 1:
+Look at convertor1.ipynb. This compiles an ONNX model with custom inferencing code. It then shows how to load said model as well.
+
+## Things below this are mostly from an example repo.
 
 # all-roberta-large-v1
 This is a [sentence-transformers](https://www.SBERT.net) model: It maps sentences & paragraphs to a 1024 dimensional dense vector space and can be used for tasks like clustering or semantic search.
